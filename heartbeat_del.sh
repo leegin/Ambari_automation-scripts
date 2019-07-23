@@ -1,10 +1,10 @@
 #!/bin/bash
 #Script to delete hosts which has lost its hearbeat from the cluster
 
-user=occ
-pass=\""Y@3NXx'"
-AMBARI_SERVER_HOST=am1.prod-ds-hadoop.olacabs.net
-CLUSTER_NAME=ds_stable_ambari
+user=<USER>
+pass=<PASSWORD>
+AMBARI_SERVER_HOST=<HOST>
+CLUSTER_NAME=<CLUSTER-NAME>
 
 #Get the list of the unhealthy nodes in the ambari cluster.
 
