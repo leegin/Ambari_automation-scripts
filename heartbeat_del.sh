@@ -1,8 +1,8 @@
 #!/bin/bash
 #Script to delete hosts which has lost its hearbeat from the cluster
 
-user=occ
-pass=\""Y@3NXx'"
+user=<USER>
+pass=<PASSWORD>
 AMBARI_SERVER_HOST=<ambari-hostname>
 CLUSTER_NAME=<Cluster-name>
 
