@@ -1,10 +1,10 @@
 #!/bin/bash
 #Script to delete the unhealthy nodes from ambar clusters.
 
-user=<USER>
-pass=<PASSWORD>
-AMBARI_SERVER_HOST=<HOST>
-CLUSTER_NAME=<CLUSTER_NAME>
+user=occ
+pass=\""Y@3NXx'"
+AMBARI_SERVER_HOST=am1.prod-dp-analytics.olacabs.net
+CLUSTER_NAME=dp_analytics
 
 #Get the list of the unhealthy nodes in the ambari cluster.
 echo "Gathering the list of the hosts which are unhealthy in $AMBARI_SERVER_HOST."
